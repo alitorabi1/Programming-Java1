@@ -1,0 +1,9 @@
+Using the order of precedence rules,
+3 * 7 - 6 + 2 * 5 / 4 + 6
+means the following:
+(((3 * 7) - 6) + ((2 * 5) / 4 )) + 6
+= ((21 - 6) + (10 / 4)) + 6 (Evaluate *)
+= ((21 - 6) + 2) + 6 (Evaluate /. Note that this is an integer division.)
+= (15 + 2) + 6 (Evaluate -)
+= 17 + 6 (Evaluate first +)
+= 23 (Evaluate +)

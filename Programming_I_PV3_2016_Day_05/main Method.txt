@@ -1,0 +1,18 @@
+The main Method
+================
+Note that you can call static methods without having any objects. For example, you never construct any objects of the Math class to call Math.pow. For the same reason, the main method is a static method.
+
+
+public class Application
+{
+   public static void main(String[] args)
+   {
+	// construct objects here
+	. . .
+   }
+}
+
+
+The main method does not operate on any objects. In fact, when a program starts, there aren’t any objects yet. The static main method executes, and constructs the objects that the program needs.
+
+Every class can have a main method. That is a handy trick for unit testing of classes.

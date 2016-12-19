@@ -1,0 +1,18 @@
+format specifier
+================
+Method printf’s first argument is a format string that may consist of fixed text and format specifiers. Fixed text is output by printf just as it would be by print or println. Each format specifier is a placeholder for a value and specifies the type of data to output. Format specifiers also may include optional formatting information.
+
+Format specifiers begin with a percent sign (%) followed by a character that represents the data type. For example, the format specifier %s is a placeholder for a string.
+
+
+
+References
+===========
+Formatting
+http://docs.oracle.com/javase/tutorial/essential/io/formatting.html
+
+Complete Printf for Java Format String Specification
+http://sharkysoft.com/archive/printf/docs/javadocs/lava/clib/stdio/doc-files/specification.htm
+
+A printf format reference page (cheat sheet)
+http://alvinalexander.com/programming/printf-format-cheat-sheet

@@ -1,0 +1,13 @@
+PROGRAMMING EXERCISES 4
+========================
+1. Write a program that prompts the user to input a number. The program should then output the number and a message saying whether the number is positive, negative, or zero.
+
+2. Write a program that prompts the user to input three numbers. The program should then output the numbers in nondescending order. 
+
+3. Write a program that prompts the user to input an integer between 0 and 35. If the number is less than or equal to 9, the program should output the
+number; otherwise, it should output A for 10, B for 11, C for 12, . . ., and Z for 35. (Hint: Use the cast operator, (char)( ), for numbers >= 10.)
+
+4. The statements in the following program are in incorrect order. Rearrange the statements so that it prompts the user to input the shape type (rectangle, circle, or cylinder), and the appropriate dimension of the shape. The program then outputs the following information about the shape: For a rectangle, it outputs the area and perimeter; for a circle, it outputs the area and circumference; and for a cylinder, it outputs the volume and surface area. After rearranging the statements, your program should be properly indented.
+
+
+
